@@ -1,0 +1,151 @@
+
+body{
+    background-color: bisque;
+}
+.landingPage{
+    background-color: wheat;
+    display: block;
+}
+
+.title {
+   display: flex;
+   justify-content: space-between;
+}
+.title .side1{
+    font-family: none;
+    font-size: .75rem;
+}
+.title h1{
+    font-family: "Playwrite ES Guides", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.top-list ol{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.content{
+    display: grid;
+    align-content: stretch;
+    align-content: normal;
+}
+.content-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 1rem;
+    gap: 5px 5px;
+}
+p{
+    font-size: 0.75rem;
+    text-align: justify;
+    text-decoration: none;
+}
+.first-post{
+    grid-column: span 2;
+    grid-row: span 2;
+    margin: 5px;
+    height: 100%;
+}
+.first-post #pfp{
+    max-width: 100%;
+    height: auto;
+    padding: 0.75px;
+}
+.second-column{
+    grid-column: span 1;
+    grid-row: span 2;
+    height: 100%;
+}
+#inspiring-web{
+    max-width: 100%;
+    height: auto;
+    padding: 0.75px;
+}
+#inspiring-np{
+    max-width: 100%;
+    height: auto;
+    padding: 0.75px;
+}
+#top-one{
+    grid-row: 1;
+}
+#bottom-one{
+    grid-row: 1;
+}
+
+*>h1{
+    text-align: center;
+}
+*> h2{
+    text-align: center;
+}
+.content-two{
+    display: block;
+}
+.images .image-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+#html-logo{
+    max-width: 50px;
+    height: 50px;
+    padding: 0.75px;
+}
+#css-logo{
+    max-width: 50px;
+    height: 50px;
+    padding: 0.75px;
+}
+#cpp-logo{
+    max-width: 50px;
+    height: 50px;
+    padding: 0.75px;
+}
+.other-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 10px 15px;
+}
+
+#hegel1{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+.books-reading img{
+    float: left;
+}
+#movie1{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+.movie-watching img{
+    float: left;
+}
+#food1{
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+.luncheon img{
+    float: right;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
